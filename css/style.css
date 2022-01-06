@@ -23,6 +23,7 @@ p{
 }
 section{
     display: flex;
+    margin-top: 25px;
     margin-bottom: 150px;
 }
 
