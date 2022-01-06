@@ -3,20 +3,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    color:#00041a;
     font-size:40px;
 }
 p{
     line-height: 25px;
     /* letter-spacing: 1px; */
 }
+
 .contain{
     padding-left: 5%;
 }
 .left-border{
-    border-left: 1px solid red;
-}
-.l-border {
-    border-left: 4px solid blue;
+    border-left: 4px solid #da3548;
     padding-left: 5px;
 }
 .color-orange{
@@ -26,11 +25,15 @@ section{
     display: flex;
     margin-bottom: 150px;
 }
+
+/* << Start First Section >>  */
+
 .half-width{
     width:50%;
 }
 .half-width img{
     width:70%;
+    padding-left: 5%;
 }
 .link-button{
     color:#ffffff;
@@ -60,6 +63,7 @@ section{
 }
 .box-style img{
     width:45%;
+    
 }
 #color-bg1{
     background-color: #e8f9fb;
@@ -87,13 +91,17 @@ section{
     background-size: 15%;
 }
 
-/* << Start secound Section >>  */
+/* << End 3rd Section >>  */
 
 /* << Start 4th Section >>  */
 
 
 .global-div{
-    padding-left: 5%;
+    padding: 0 5%;
+    width: 60%;
+}
+.global-width{
+    width: 40%;
 }
 .dev-limits img{
     width:70%;
@@ -104,5 +112,22 @@ section{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 15%;
-    height: 500px;
+    height: 420px;
+}
+
+/* footer section */
+
+.fot-section{
+    background-color: #00041a;
+    padding:20px;
+}
+.foot-mission{
+    color:#ffffff;
+    text-align: center;
+}
+.foot-mission h1{
+    color:#ffffff;
+}
+.foot-mission span{
+    color:#da3548;
 }
